@@ -1,0 +1,30 @@
+
+@media screen and (max-width : 991px) and (max-width : 600px)  {
+    
+
+    .header h2{
+    display: none;
+    }
+
+  body .header .nav-bar{
+   align-items: center;
+    justify-content: center;   
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+}
+
+.scroll-down{
+    display: none;
+
+
+
+}
+
+
+@media (max-height : 500px) {
+   
+    body header{
+        height: 3em;
+    }
+}
