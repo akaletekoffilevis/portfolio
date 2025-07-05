@@ -652,3 +652,101 @@ footer .social-link a:hover {
          transform: rotate(0deg);
     }
 }
+
+
+/* ========== Responsive Mobile & Tablet ========== */
+@media (max-width: 1024px) {
+  .header h2 {
+    font-size: 2em;
+    margin-left: 2%;
+  }
+
+  .nav-bar {
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .nav-bar a {
+    font-size: medium;
+  }
+
+  .Text {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 8em;
+  }
+
+  .Text h1 {
+    font-size: 2.5em;
+    width: 100%;
+  }
+
+  .Text h2, .Text h3 {
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  .link {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .link a {
+    width: 80%;
+    margin-bottom: 1em;
+  }
+
+  .Me {
+    display: none;
+  }
+
+  #left, #right, .skills-list, .list-skills, .form, .list, .card {
+    width: 90% !important;
+    height: auto;
+  }
+
+  .skills h2, .about h2, .project h2, .contact h2 {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .bar {
+    width: 80% !important;
+    height: auto !important;
+    font-size: 1em !important;
+  }
+
+  .list .addres {
+    width: 100%;
+  }
+
+  .form form {
+    flex-direction: column;
+  }
+
+  .in-text {
+    width: 80%;
+  }
+
+  #submit, #reset {
+    width: 60%;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  footer .copy, .social-link {
+    width: 90%;
+    text-align: center;
+  }
+
+  .social-link {
+    justify-content: center;
+    gap: 1em;
+  }
+}
